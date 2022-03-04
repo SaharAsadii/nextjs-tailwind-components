@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply p-10 font-IranYekan;
+  direction: rtl;
+}
+
+@font-face {
+  font-family: "IranYekanMedium";
+  src: url("/assets/fonts/iranyekan/IRANYekanMediumFaNum.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IranYekanRegular";
+  src: url("/assets/fonts/iranyekan/IRANYekanRegularFaNum.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IranYekanBold";
+  src: url("/assets/fonts/iranyekan/IRANYekanBoldFaNum.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
